@@ -1,0 +1,117 @@
+@font-face {
+  font-family: "police_principale";
+  src: url("")
+}
+body{
+  /*font-family: "police_principale";*/
+  background-color: rgb(240,240,240);
+  line-height: 2em;
+}
+.titre-et-menu{
+  display: flex;
+  justify-content: space-between;
+}
+.menusandwitch{
+  margin-top: ;
+  width: 25px;
+  height: 25px;
+}
+h1{
+  margin-bottom: ;
+  text-align: center;
+}
+.presentation{ /*name tel.. and theme button*/
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.presentation strong{
+  font-size: 1.2em;
+}
+.presentation button{
+  height: 35px;
+}
+nav a{ /*Nav Modal*/
+  padding: 5px 0 5px 0;
+  margin:10px 0 10px 0;
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+  background-color: midnightblue;
+}
+nav a:hover, nav a:active{
+  color: white;
+  text-decoration: none;
+  background-color: indigo;
+}
+#buttonstyle{/*theme switch button*/
+  color:white;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  background-color: navy;
+}
+#buttonstyle:hover, #buttonstyle:active{
+  background-color: indigo;
+}
+a{
+  color: midnightblue;
+}
+a:hover{
+  text-decoration: none;
+}
+h2{
+  color: navy;
+}
+ul{
+  list-style-type: none;
+}
+header{
+  padding-bottom: 15px;
+}
+#carouselControls img{
+  margin: auto;
+  height: 250px;
+  max-width: 400px;
+}
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+em{
+  color: indigo;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: underline;
+}
+article{
+  margin-bottom: 40px;
+}
+.interet{
+  margin-bottom:30px;
+}
+@media screen and (min-width:768px){
+  .bordurehead{
+    border-bottom: solid 1px black;
+    margin-bottom: 35px;
+  }
+  .presentation p{
+    font-size: 1em;
+    padding: 20px;
+  }
+  .competences{
+    float: left;
+    margin-right: 5%;
+  }
+  #carouselControls img{
+    height: 350px;
+    max-width: 80%;
+  }
+  .experiences{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
